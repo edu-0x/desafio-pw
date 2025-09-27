@@ -1,0 +1,60 @@
+:root {
+    --primary-color: #e85f19 --secondary-color: #ee8a56 --dark-color: #262627 --info-color: #5d5d5d
+}
+
+body {
+    background-image: url(https://github.com/alessandrovitorio/brand-buz/blob/main/assets/images/bg.png?raw=true); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: space-between;
+    padding-inline: 5rem;
+}
+
+.header {
+    display: flex;
+    padding: auto;
+    justify-content: space-between;
+}
+
+header .nav {
+    list-style-type: none;
+    display: flex;
+    background-color: blue;
+    justify-content: space-between;
+    flex-grow: 2;
+}
+
+header .enter {
+    display: flex;
+    border-radius: 30%;
+    height: 3rem;
+    width: auto;
+    align-items: center;
+    background-color: yellow;
+    margin-inline-start: 2rem;
+    margin-inline: 2rem;
+    padding: 10px;
+}
+
+.cabecalho {
+    flex-wrap: wrap;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    justify-content: space-between;
+
+}
+
+header .ul {
+    display: flex;
+    width: 100%;
+
+    gap: 20px;
+}
+
+.logo {
+    display: flex;
+    margin-inline: 20px;
+}
+
