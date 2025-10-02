@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+.carta {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+    height: 100vh;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.cabecalho {
+    margin: 0 3rem;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid #ccc;
+}
+
+.cabecalho h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+.menu-lateral {
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+    padding-left: 3rem;
+    font-size: 1rem;
+}
+
+.menu-lateral ul li {
+    margin-bottom: 1rem;
+}
+
+.menu-lateral ul li a {
+    display: inline-block;
+}
+
+.menu-lateral ul li a::after {
+    content: '';
+    width: 0;
+    display: block;
+    height: 2px;
+    background-color: #ccc;
+    transition: width 0.3s ease;
+}
+
+.menu-lateral ul li a:hover{
+    color: #222;
+    font-weight: bold;
+
+}
+
+.menu-lateral ul li a:hover::after {
+    background-color: #222;
+    width: 100%;
+} 
+
+.conteudo-principal {
+    display: inline-block;
+    width: 68%;
+    vertical-align: top;
+    height: 65vh;
+    padding-right: 3rem;
+    border-left: 2px solid #ccc;
+    overflow-y: auto;
+    margin-bottom: 2rem;
+}
+
+.conteudo-principal img {
+    width: 220px;
+    margin-left: 15px;
+    float: right;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.conteudo-principal h3 {
+    font-size: 1.6rem;
+    margin-bottom: 0 0 1rem 1rem;
+}
+
+.conteudo-principal .item {
+    padding: 0.9rem 2rem;
+    text-align: justify;
+}
+
+.rodape {
+    background-color: #d3d3d3;
+    height: 15%;
+    padding: 1rem 3rem;
+}
+
+.rodape img {
+    display: block;
+    margin: auto;
+    max-width: 200px;
+    float: left;
+}
+
+.rodape ul {
+    margin: auto;
+    float: right;
+}
+
+.rodape ul li {
+    color: #fff;
+    text-shadow: 0 0 8px rgba(0,0,0,0.3);
+    cursor: pointer;
+    margin-bottom: 0.3rem;
+    font-size: 0.9rem;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #c7c7c7;
+    padding: 1rem 0;
+    color: #222;
+}
+
+a {
+    text-decoration: none;
+    color: #545454;
+}
